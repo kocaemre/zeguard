@@ -1,0 +1,41 @@
+{
+  "high": [
+    "ignore previous instructions",
+    "ignore all prior instructions",
+    "you are now",
+    "new system prompt",
+    "override:",
+    "do not reveal",
+    "do not mention",
+    "pretend you are",
+    "act as if",
+    "forget everything",
+    "disregard all",
+    "your new instructions",
+    "you must not",
+    "system:",
+    "[inst]",
+    "[/inst]",
+    "<system>",
+    "</system>",
+    "human:",
+    "assistant:",
+    "jailbreak",
+    "dan mode",
+    "developer mode"
+  ],
+  "medium": [
+    "instead of",
+    "when asked about",
+    "rate this as",
+    "grade this as",
+    "always respond with",
+    "the correct answer is",
+    "respond only with",
+    "you must",
+    "make sure to",
+    "do not use",
+    "never mention",
+    "only say"
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "high": [
+    "önceki talimatları yoksay",
+    "önceki talimatları unut",
+    "tüm talimatları unut",
+    "şimdi sen",
+    "yeni sistem komutu",
+    "yeni sistem talimatı",
+    "geçersiz kıl",
+    "bahsetme",
+    "açıklama yapma",
+    "gibi davran",
+    "her şeyi unut",
+    "yeni rol",
+    "rol yap",
+    "sanki sen",
+    "seni sıfırlıyorum",
+    "yeni kimliğin"
+  ],
+  "medium": [
+    "yerine şunu yaz",
+    "hakkında sorulduğunda",
+    "olarak değerlendir",
+    "puan ver",
+    "her zaman yanıtla",
+    "doğru cevap şu",
+    "sadece şunu yaz",
+    "şunu söyleme",
+    "asla belirtme",
+    "mutlaka söyle",
+    "cevabın şu olsun"
+  ]
+}
