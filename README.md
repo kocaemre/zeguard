@@ -6,6 +6,7 @@
 **Demo:** [docguard.zepatrol.xyz](https://docguard.zepatrol.xyz)
 
 ---
+<img width="1920" height="961" alt="image" src="https://github.com/user-attachments/assets/f3e2838e-ab01-416f-9ff0-ff577ba42c3e" />
 
 ## 🎯 Ne Yapar?
 
