@@ -2,6 +2,7 @@
   "name": "zeguard",
   "private": true,
   "version": "0.0.0",
+  "description": "PDF, DOCX ve PPTX dosyalarındaki gizli prompt injection tekniklerini tespit eden, tarayıcıda çalışan açık kaynak güvenlik aracı.",
   "type": "module",
   "scripts": {
     "dev": "vite",

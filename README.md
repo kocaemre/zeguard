@@ -1,48 +1,42 @@
-# 🛡️ ZeGuard — Gizli Prompt Injection Dedektörü
+# ZeGuard
 
-> PDF, DOCX ve PPTX dosyalarındaki gizli prompt injection tekniklerini tespit eden, tarayıcıda çalışan açık kaynak güvenlik aracı.
-> Hiçbir veri sunucuya gönderilmez — tüm analiz client-side çalışır.
+Gizli prompt injection dedektörü. PDF, DOCX ve PPTX dosyalarına gömülmüş gizli prompt injection tekniklerini tespit eden, tamamen tarayıcıda çalışan açık kaynak güvenlik aracı.
 
-**Demo:** [docguard.zepatrol.xyz](https://docguard.zepatrol.xyz)
+Tüm analiz client-side gerçekleşir; hiçbir veri sunucuya gönderilmez.
 
----
-<img width="1920" height="961" alt="image" src="https://github.com/user-attachments/assets/f3e2838e-ab01-416f-9ff0-ff577ba42c3e" />
+**Demo:** ~~docguard.zepatrol.xyz~~ — şu an yayında değil. Aşağıdaki [kurulum](#kurulum) adımlarıyla projeyi lokalde kolayca çalıştırabilirsiniz.
 
-## 🎯 Ne Yapar?
+<img width="1920" height="961" alt="ZeGuard arayüzü" src="https://github.com/user-attachments/assets/f3e2838e-ab01-416f-9ff0-ff577ba42c3e" />
 
-AI sistemlerine dosya yüklediğinizde, belgede gizlenmiş talimatlar LLM'i manipüle edebilir. ZeGuard bu teknikleri otomatik olarak tespit eder.
+## Ne Yapar?
+
+AI sistemlerine dosya yüklediğinizde, belgeye gizlenmiş talimatlar LLM'i manipüle edebilir. ZeGuard bu teknikleri otomatik olarak tespit eder.
 
 ### Tespit Edilen Saldırı Teknikleri
 
 | Teknik | Açıklama |
 |--------|----------|
-| **Invisible Font** | Font rengi ≈ arka plan rengi (Delta-E ≤ 10) kontrolü |
-| **Tiny Font** | 4pt altı metin — gözle görünmez, LLM okur |
-| **Hidden Text** | DOCX `w:vanish` ve `w:webHidden` XML tag'leri |
-| **Unicode Invisible** | 8 farklı invisible Unicode karakteri (özellikle 3+ ardışık) |
-| **Metadata Injection** | `docProps/core.xml` ve `custom.xml` içinde injection pattern'ları |
-| **Pattern Matching** | 50+ Türkçe ve İngilizce prompt injection pattern veritabanı |
+| Invisible Font | Font rengi ≈ arka plan rengi (Delta-E ≤ 10) kontrolü |
+| Tiny Font | 4pt altı metin — gözle görünmez, LLM okur |
+| Hidden Text | DOCX `w:vanish` ve `w:webHidden` XML tag'leri |
+| Unicode Invisible | 8 farklı görünmez Unicode karakteri (özellikle 3+ ardışık) |
+| Metadata Injection | `docProps/core.xml` ve `custom.xml` içindeki injection pattern'ları |
+| Pattern Matching | 50+ Türkçe ve İngilizce prompt injection pattern veritabanı |
 
----
+## Gizlilik
 
-## 🔒 Gizlilik
+Tüm analiz tarayıcıda gerçekleşir. Yüklediğiniz dosya hiçbir sunucuya gönderilmez.
 
-Tüm analiz **tarayıcıda** gerçekleşir. Dosyanız hiçbir sunucuya gönderilmez.
+## Teknoloji
 
----
+- React 18 + TypeScript
+- Vite — build tool
+- Tailwind CSS — stil
+- pdf.js — PDF parsing
+- mammoth.js — DOCX parsing
+- PptxGenJS — PPTX parsing
 
-## 🛠️ Teknoloji
-
-- **React 18** + TypeScript
-- **Vite** — build tool
-- **Tailwind CSS** — stil
-- **pdf.js** — PDF parsing
-- **mammoth.js** — DOCX parsing
-- **PptxGenJS** — PPTX parsing
-
----
-
-## 🚀 Kurulum
+## Kurulum
 
 ```bash
 git clone https://github.com/kocaemre/zeguard.git
@@ -58,9 +52,7 @@ npm run build
 # dist/ klasörü oluşur, herhangi bir static hosting'e deploy edilebilir
 ```
 
----
-
-## 📁 Proje Yapısı
+## Proje Yapısı
 
 ```
 zeguard/
@@ -92,14 +84,10 @@ zeguard/
 └── vite.config.ts
 ```
 
----
+## Geliştirici
 
-## 👨‍💻 Geliştirici
+Emre Koca — [0xemrek](https://github.com/kocaemre)
 
-**Emre Koca** — [0xemrek](https://github.com/kocaemre)
-
----
-
-## 📄 Lisans
+## Lisans
 
 MIT
