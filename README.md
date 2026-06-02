@@ -4,7 +4,7 @@ Gizli prompt injection dedektörü. PDF, DOCX ve PPTX dosyalarına gömülmüş 
 
 Tüm analiz client-side gerçekleşir; hiçbir veri sunucuya gönderilmez.
 
-**Demo:** [docguard.zepatrol.xyz](https://docguard.zepatrol.xyz)
+**Demo:** ~~docguard.zepatrol.xyz~~ — şu an yayında değil. Aşağıdaki [kurulum](#kurulum) adımlarıyla projeyi lokalde kolayca çalıştırabilirsiniz.
 
 <img width="1920" height="961" alt="ZeGuard arayüzü" src="https://github.com/user-attachments/assets/f3e2838e-ab01-416f-9ff0-ff577ba42c3e" />
 
