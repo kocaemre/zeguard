@@ -1,8 +1,21 @@
-# ZeGuard
+# ZeGuard (arşivlenmiş prototip / archived prototype)
 
-Gizli prompt injection dedektörü. PDF, DOCX ve PPTX dosyalarına gömülmüş gizli prompt injection tekniklerini tespit eden, tamamen tarayıcıda çalışan açık kaynak güvenlik aracı.
+> [!IMPORTANT]
+> **Türkçe —** Bu depo **arşivlenmiş** bir prototiptir ve tarihsel kayıt olarak
+> saklanmaktadır. Geliştirme, sıfırdan yazılan Rust sürümünde devam ediyor:
+> [kocaemre/zeguard-core](https://github.com/kocaemre/zeguard-core). Bu yeni
+> depo **henüz herkese açık değil**, dolayısıyla bağlantı bugün ziyaretçilerin
+> çoğu için açılmayacaktır.
+>
+> **English —** This repository is an **archived prototype**, kept as a
+> historical record. Development continues as a ground-up Rust rewrite at
+> [kocaemre/zeguard-core](https://github.com/kocaemre/zeguard-core). That
+> repository is **not yet public**, so the link will not open for most visitors
+> today.
 
-Tüm analiz client-side gerçekleşir; hiçbir veri sunucuya gönderilmez.
+Gizli prompt injection dedektörü. PDF, DOCX ve PPTX dosyalarına gömülmüş gizli prompt injection tekniklerini tespit eden, tamamen tarayıcıda çalışan açık kaynak güvenlik aracıydı.
+
+Tüm analiz client-side gerçekleşirdi; hiçbir veri sunucuya gönderilmezdi.
 
 **Demo:** ~~docguard.zepatrol.xyz~~ — şu an yayında değil. Aşağıdaki [kurulum](#kurulum) adımlarıyla projeyi lokalde kolayca çalıştırabilirsiniz.
 
